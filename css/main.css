@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
   background-color: #F9DCF0;
   padding: 0 5%;
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 h1 {
