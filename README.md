@@ -1,1 +1,1 @@
-# How-To-Assignment
+# How-To
