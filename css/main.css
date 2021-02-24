@@ -1,28 +1,67 @@
+/* Universal selector; use with caution */
+
+* {
+ !border: 1px solid #000; 
+}
+
+/* General layout */
+
 body {
   font-family: sans-serif;
   background-color: #F9DCF0;
   padding: 0 5%;
 }
 
-h1 {
-  font-family: serif;
-  font-size: 3.5em;
-  font-weight: 800;
-  text-align: center;
-}
-
-h2 {
-  font-family: cursive;
-  font-size: 2.25em;
-  font-weight: 900;
-  color: #ED1C24;
-  text-align: center;
-}
+/* General typographic styles */
 
 h3 {
   font-family: serif;
   font-size: 1.8em;
   font-weight: 600;
+}
+
+/* header */
+
+header h1 {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  font-weight: 800;
+  text-align: center;
+}
+
+header h2 {
+  font-family: serif;
+  font-size: 2.2em;
+  font-weight: 800;
+  color: #ED1C24;
+  text-align: center;
+}
+
+header p {
+  font-family: cursive;
+  font-size: 1.25em;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Descendant selector 
+https://www.quirksmode.org/css/selectors/
+*/
+
+dl {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 2em;
+  padding-bottom: 1em;
+}
+
+dl dt {
+ font-weight: bold;
+ margin-top: 1em;
+}
+
+dl dd {
+  margin-left: 0;
 }
 
 ul {
@@ -32,13 +71,9 @@ ul {
 ol {
   line-height: 1.75;
 }
+  
+/* Interactive pseudo-class selector */
 
-p.intro {
-  font-family: serif;
-  font-size: 1.8em;
-  line-height: 1;
-  padding: 0.5em;
-  border: 0.2em solid;
-  text-align: center;
-  color: #EC008C;
+a {
+  color: #000;
 }
