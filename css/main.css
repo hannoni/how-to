@@ -2,8 +2,10 @@
 
 body {
   font-family: sans-serif;
-  background-color: #F9DCF0;
+  background-color: #ffffff;
+  max-width: 40em;
   padding: 0 5%;
+  margin: 0 auto;
 }
 
 /* General typographic styles */
@@ -18,6 +20,8 @@ h3 {
 
 header {
  text-align: center;
+ border: 0.2em solid #f00;
+ color: #ED1C24 
 }
 
 header h1 {
@@ -30,41 +34,66 @@ header h2 {
   font-family: serif;
   font-size: 2.2em;
   font-weight: 800;
-  color: #ED1C24;
 }
 
 p.tagline {
   font-family: cursive;
   font-size: 1.5em;
   font-weight: 800;
+  color: #ED1C24;
+}
+
+nav {
+  color: #fc95d7
+}
+
+section {
+  color: #fc95d7;
 }
 
 /* Descendant selector 
 https://www.quirksmode.org/css/selectors/
 */
 
-dl {
+.list-icon-header::before {
+ display: inline-block;
+ content: "⏲️";
+ font-size: 2em;
+ margin-bottom: 0.25rem;
+}
+
+#details div {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  margin-top: 2em;
-  padding-bottom: 1em;
 }
 
-dl dt {
+#details dt {
  font-weight: bold;
  margin-top: 1em;
+ margin-left: 0;
+ margin-bottom: 0;
 }
 
-dl dd {
-  margin-left: 0;
+#details dd {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+#details dt,
+#details dd {
+  display: inline;
 }
 
 ul {
   line-height: 1.75;
+  color: #000;
 }
 
 ol {
   line-height: 1.75;
+  color: #000;
 }
   
 /* Interactive pseudo-class selector */
