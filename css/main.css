@@ -95,7 +95,15 @@ ol {
   line-height: 1.75;
   color: #000;
 }
-  
+
+/* Image */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Interactive pseudo-class selector */
 
 a {
