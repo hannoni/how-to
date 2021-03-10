@@ -98,6 +98,14 @@ ol {
 
 /* Interactive pseudo-class selector */
 
+/* Image */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}  
+
 a {
   color: #000;
 }
