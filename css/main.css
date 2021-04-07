@@ -43,6 +43,12 @@ p.tagline {
   color: #ED1C24;
 }
 
+p.extra {
+  padding-top: 1rem;
+  border-top: 1px solid #000;
+  margin-top: 1rem;
+}
+ 
 nav {
   color: #fc95d7
 }
@@ -104,6 +110,8 @@ img {
   width: auto;
   max-width: 100%;
   height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }  
 
 a {
