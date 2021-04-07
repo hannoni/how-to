@@ -3,7 +3,7 @@
 body {
   font-family: sans-serif;
   background-color: #ffffff;
-  max-width: 60rem;
+  max-width: 60rem; /* Max-width layout for wider screens */
   padding: 0 10%;
   margin: 0 auto;
 }
