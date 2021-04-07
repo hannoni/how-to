@@ -21,7 +21,8 @@ h3 {
 header {
  text-align: center;
  border: 0.4em solid #f00;
- color: #ED1C24 
+ color: #ED1C24; 
+ background-color: #fff;
 }
 
 header h1 {
