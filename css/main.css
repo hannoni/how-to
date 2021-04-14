@@ -14,12 +14,13 @@ summary {
   font-family: Poppins;
   font-weight: 800;
   font-size: 1.8em;
+  margin-bottom: 1rem;
 }
   
 h3 {
   font: 800 1.05em/1.5 Poppins;
   font-size: 1.8em;
-  margin-top: 3rem;
+  margin-top: 8rem;
   margin-bottom: 1rem;
 }
 
@@ -63,8 +64,6 @@ p.extra {
  
 nav {
   font-family: Poppins;
-  
-  
 }
 
 nav h3 {
