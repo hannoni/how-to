@@ -48,6 +48,11 @@ p.tagline {
   color: #ed1c24;
 }
 
+.image-credit {
+  font: italic 1.05em/1.5 Poppins;
+    
+}    
+
 p.extra {
   font-family: Poppins;
   padding-top: 1rem;
