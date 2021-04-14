@@ -49,8 +49,7 @@ p.tagline {
 }
 
 .image-credit {
-  font: italic 1.05em/1.5 Poppins;
-    
+  font: italic 1.05em/1.5 Poppins;  
 }    
 
 p.extra {
@@ -114,13 +113,13 @@ https://www.quirksmode.org/css/selectors/
 
 ul {
   font-family: Poppins;
-  line-height: 1.75;
+  line-height: 2;
   color: #000;
 }
 
 ol {
   font-family: Poppins;
-  line-height: 1.75;
+  line-height: 2;
   color: #000;
 }
 
