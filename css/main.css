@@ -17,7 +17,7 @@ summary {
 }
   
 h3 {
-  font-family: bold 800 Poppins;
+  font: bold 800 Poppins;
   font-size: 1.8em;
 }
 
@@ -138,7 +138,6 @@ img {
 .cookie {
   text-align: center;
   margin-bottom: 1rem;
-  font:
 }  
 
 a {
