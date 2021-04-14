@@ -17,9 +17,8 @@ summary {
 }
   
 h3 {
-  font-family: Poppins;
+  font-family: bold 800 Poppins;
   font-size: 1.8em;
-  font-weight: 800;
 }
 
 /* header */
