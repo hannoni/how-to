@@ -21,7 +21,7 @@ h3 {
 header {
  text-align: center;
  border: 0.4em solid #f00;
- color: #ED1C24; 
+ color: #ed1c24; 
  background-color: #fff;
 }
 
@@ -55,7 +55,7 @@ nav {
 }
 
 section {
-  color: #FF1493;
+  color: #ff1493;
 }
 
 /* Descendant selector 
